@@ -9,7 +9,7 @@ const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 const translations = {
   en: {
     brandName: 'Faisal Alrajhi',
-    navAbout: 'About', navWork: 'Work', navChannels: 'Channels', navCollab: 'Collaborate',
+    navAbout: 'About', navWork: 'Work', navProjects: 'Projects', navChannels: 'Channels', navCollab: 'Collaborate',
     heroEyebrow: 'Kuwait-based tech creator',
     heroTitle: 'Technology, AI, and gadgets made simple.',
     heroText: 'I’m Faisal Alrajhi, a tech reviewer and content creator from Kuwait. I create Arabic content about smartphones, gadgets, AI tools, cameras, gaming, and creator technology — helping people discover what is useful, exciting, and worth their time.',
@@ -25,6 +25,9 @@ const translations = {
     cardTwoTitle: 'AI & Future Tools', cardTwoText: 'Creative AI tools, automation, image generation, productivity workflows, and the future of digital creativity.',
     cardThreeTitle: 'Creator Gear', cardThreeText: 'Cameras, microphones, lighting, drones, and tools that help creators produce better content.',
     cardFourTitle: '3D Printing & Projects', cardFourText: 'Maker projects, custom designs, product ideas, and experiments with 3D printing technology.',
+    projectsEyebrow: 'My projects', projectsTitle: 'Websites and tools I build.',
+    fixKalamBadge: 'Arabic utility', fixKalamText: 'A simple tool that fixes Arabic and English text direction for mixed messages, numbers, links, hashtags, and punctuation.',
+    fixKalamLink: 'Visit website',
     channelsEyebrow: 'Find me online', channelsTitle: 'Follow my content across platforms.', boutiqueLabel: 'Boutique',
     collabEyebrow: 'Partnerships', collabTitle: 'Let’s create content that people actually enjoy watching.',
     collabText: 'I collaborate with technology brands, agencies, and creative teams to produce reviews, product showcases, social media videos, launch coverage, and engaging Arabic content for audiences in Kuwait and the GCC.',
@@ -33,7 +36,7 @@ const translations = {
   },
   ar: {
     brandName: 'فيصل الراجي',
-    navAbout: 'نبذة', navWork: 'المحتوى', navChannels: 'الحسابات', navCollab: 'تعاون',
+    navAbout: 'نبذة', navWork: 'المحتوى', navProjects: 'مشاريعي', navChannels: 'الحسابات', navCollab: 'تعاون',
     heroEyebrow: 'صانع محتوى تقني من الكويت',
     heroTitle: 'التقنية والذكاء الاصطناعي بشكل أبسط.',
     heroText: 'أنا فيصل الراجي، صانع محتوى ومراجع تقني من الكويت. أقدم محتوى عربي عن الهواتف، الأجهزة، أدوات الذكاء الاصطناعي، الكاميرات، الألعاب، وأدوات صناعة المحتوى — بطريقة سهلة، عملية، وممتعة.',
@@ -49,6 +52,9 @@ const translations = {
     cardTwoTitle: 'الذكاء الاصطناعي وأدوات المستقبل', cardTwoText: 'أدوات AI للإبداع، الأتمتة، توليد الصور، الإنتاجية، ومستقبل الإبداع الرقمي.',
     cardThreeTitle: 'معدات صناع المحتوى', cardThreeText: 'كاميرات، مايكات، إضاءة، درونز، وأدوات تساعد صناع المحتوى يطلعون بنتيجة أفضل.',
     cardFourTitle: 'الطباعة ثلاثية الأبعاد والمشاريع', cardFourText: 'مشاريع ميكر، تصاميم مخصصة، أفكار منتجات، وتجارب في عالم الطباعة ثلاثية الأبعاد.',
+    projectsEyebrow: 'مشاريعي', projectsTitle: 'مواقع وأدوات أبنيها.',
+    fixKalamBadge: 'أداة عربية', fixKalamText: 'أداة بسيطة تصلح اتجاه النص العربي والإنجليزي في الرسائل المختلطة مع الأرقام، الروابط، الهاشتاقات، علامات الترقيم.',
+    fixKalamLink: 'زيارة الموقع',
     channelsEyebrow: 'حساباتي', channelsTitle: 'تابعني على المنصات المختلفة.', boutiqueLabel: 'البوتيك',
     collabEyebrow: 'الشراكات', collabTitle: 'خلونا نصنع محتوى الناس تستمتع بمشاهدته.',
     collabText: 'أتعاون مع العلامات التقنية، الوكالات، والفرق الإبداعية لإنتاج مراجعات، استعراض منتجات، فيديوهات للسوشيال ميديا، تغطيات إطلاق، ومحتوى عربي جذاب لجمهور الكويت والخليج.',
