@@ -219,6 +219,16 @@ html[dir="rtl"] .floating-card.bottom { left: auto; right: -1.2rem; }
 .feature-card { padding: 1.4rem; min-height: 260px; transition: transform 0.2s ease, border-color 0.2s ease; }
 .feature-card:hover { transform: translateY(-6px); border-color: rgba(255, 210, 31, 0.65); }
 .card-icon { display: inline-grid; place-items: center; width: 3rem; height: 3rem; border-radius: 1rem; background: var(--yellow); margin-bottom: 1.2rem; font-size: 1.3rem; }
+.card-action {
+  display: inline-flex;
+  margin-top: 1.2rem;
+  padding: 0.55rem 0.75rem;
+  border-radius: 999px;
+  background: var(--yellow);
+  color: #000;
+  font-size: 0.86rem;
+  font-weight: 900;
+}
 
 .projects-section { padding-top: 3rem; }
 .projects-grid {
